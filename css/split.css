@@ -1,18 +1,19 @@
 body {
   --color-bg: #0f0f11;
-  --color-text: #e3e5eb;
+/*  --color-text: #e3e5eb;*/
+  --color-text: #000000;
   --color-link: #595980;
   --color-link-hover: #fff;
 }
 
 .content__type {
-  font-size: 7vw;
+  font-size: 1.8vw;
   margin: 0 auto;
   text-align: justify;
-  font-family: condor-compressed, sans-serif;
+  font-family: font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
-  padding: 5rem 0;
+/*  text-transform: uppercase;
+*/  padding: 2rem 0;
   line-height: 1;
   backface-visibility: hidden;
   -webkit-user-select: none;
@@ -24,7 +25,7 @@ body {
 }
 
 .content__type-special {
-  font-size: 29vw;
+  font-size: 20vw;
   display: block;
   margin: 0 auto;
   text-align: center;

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Às̩e̩  |  Why this</title>
+    <meta name="description" content="An experiemntal 3D layout technique for HTML elements." />
+    <meta name="keywords" content="3d, layout, html, css, bending, javascript, demo" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/yxd7izj.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/split.css" />
+    <script>
+    document.documentElement.className = "js";
+    var supportsCssVars = function() {
+        var e,
+            t = document.createElement("style");
+        return (
+            (t.innerHTML = "root: { --tmp-var: bold; }"),
+            document.head.appendChild(t),
+            (e = !!(
+                window.CSS &&
+                window.CSS.supports &&
+                window.CSS.supports("font-weight", "var(--tmp-var)")
+            )),
+            t.parentNode.removeChild(t),
+            e
+        );
+    };
+    supportsCssVars() ||
+        alert(
+            "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+</head>
+
+<body class="demo-3 loading">
+    <main>
+        <div class="message">Some message for mobile (if needed).</div>
+        <div class="frame">
+            <h1 class="frame__title">às̩e̩</h1>
+            <div class="frame__links">
+                <a href="">In-Person</a>
+                <a href="/whythis.html">At home</a>
+                <a href="ythis.html">Why this</a>
+                <a href="">Who's speaking</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="fold-content" id="base-content">
+                <!-- CONTENT INSIDE HERE -->
+                <p class="content__type">
+                    <span class="content__type-special">Black</span> youth are at high risk for life dissatisfaction, which is illustrated by disproportionately high suicide rates in the last 20 years (Price and Khubchandani, 2019). We grow in a society designed to make us limited, broken, and “under control” economically, sociologically, politically, and psychologically.  Our environment constantly challenges us (Are you good enough? Can you compete?) while aggressively keeping us away from the resources required to be “good enough” by its standards.
+                </p>
+                <img class="content__img" src="img/oladimeji-odunsi-ACupmEJ26uI-unsplash.jpg" alt="Some image" />
+                <p class="content__type">
+                    Despite historically oppressive socio-environmental factors, we are the least likely to get mental health help - even when finances and geographic availability are not an issue. And when we do seek support, the gatekeepers of mental health institutions are largely middle-aged white professionals (Data USA, 2020) with their own views on society and how it should function.
+                </p>
+<!--                 <img class="content__img" src="img/Day4.PNG" alt="Some image" /> -->
+                <p class="content__type">
+                   Mental imagery, also called creative visualization, is the use of “all the senses to recreate or create an experience in the mind”. Not only does it impact us neurologically, physiologically, and psychologically, it has been found to target key factors of life dissatisfaction. These factors include positive expectancy, self-efficacy, stress levels, as well as improved performance in the context of goal pursuit. Mental imagery is effective, available for free whenever someone needs it, and unburdened by the prejudices of the society we live in. For these reasons, I chose to use it as a tool of self-creation, self-determination and progress. 
+                </p>
+<!--                 <img class="content__img" src="img/Day8.png" alt="Some image" /> -->
+                 <p class="content__type">
+                    Às̩e̩ puts in conversation the fields of neuroscience, behavioral psychology, and spirituality, and builds on research-supported techniques through an Afrofuturistic lens. This is a resistance piece through which we claim our futures by dreaming big and achieving big in a world counting on us being small. Through it, I propose a tool for self-creation, self-determination, and progress, to be used now and throughout our lives.
+                </p>
+                <p class="content__type">Timothy Francis Leary <br />(October 22, 1920 – May 31, 1996)</p>
+            </div>
+            <div class="screen" id="fold-wrapper"></div>
+            <button class="btn-debug" id="btn-debug">See Planes</button>
+        </div>
+    </main>
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/split.js"></script>
+</body>
+
+</html>

@@ -1,18 +1,38 @@
 body {
   --color-bg: #faebd7;
-  --color-text: #24221f;
-  --color-link: #a5271b;
-  --color-link-hover: #69140c;
-  font-family: halyard-display, sans-serif;
+  --color-text: #000000;
+  --color-link: #000000;
+  --color-link-hover: #000000;
+  font-family: 'Poppins', sans-serif;
+  cursor: cursor: url('https://cdn.glitch.com/5b00d9c4-1d0f-4ba9-b0f5-c3f9460b60ed%2Fcursor%20normal.png?v=1588983579540'), default;
+/*  overflow: hidden;*/
 }
 
 a:hover,
 a:focus {
-  text-decoration: underline;
+/*  text-decoration: underline;*/
+  cursor: url('https://cdn.glitch.com/5b00d9c4-1d0f-4ba9-b0f5-c3f9460b60ed%2Fcursor%20bold.png?v=1588984838317'), default;
+}
+
+.screen
+{
+/*  overflow-y: scroll;*/
+  scroll-behavior: smooth;
+}
+
+.links-side-to-side
+{
+  width: 50%;
+  display: inline;
+}
+
+.link-w-neighbour
+{
+    margin-right: 1.4rem;
 }
 
 .frame {
-  color: #a5271b;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -27,6 +47,8 @@ a:focus {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+
 
 .content__type {
   font-size: 2.5vw;
