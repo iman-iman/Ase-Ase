@@ -1,9 +1,14 @@
 body {
-  --color-bg: #0f0f11;
+  --color-bg: #000000;
 /*  --color-text: #e3e5eb;*/
   --color-text: #000000;
-  --color-link: #595980;
-  --color-link-hover: #fff;
+  --color-link: #000000;
+  --color-link-hover: #000000;
+}
+
+.frame__title,
+.frame {
+  font-size: 1.3rem;
 }
 
 .content__type {

@@ -41,6 +41,11 @@ a:focus {
   font-size: 1.3rem;
 }
 
+#bio
+{
+    font-size: 2.1vw;
+}
+
 .content__headline {
   font-size: 0.9rem;
   margin: 2rem 0 1rem;
@@ -63,6 +68,22 @@ a:focus {
   -o-user-select: none;
   user-select: none;
   background-size: 80%;
+}
+
+.content__type a{
+  font-weight: 600;
+}
+
+.quote
+{
+/*  font-size: 1.8vw;*/
+/*  font-weight: 400;*/
+  margin-bottom: -2rem;
+}
+
+#quote-last
+{
+/*  font-size: 1.8vw;*/
 }
 
 .content__img {
