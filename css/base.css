@@ -259,7 +259,8 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: var(--color-bg);
+/*	background: var(--color-bg);*/
+	background: #000000;
 }
 
 .js .loading::after {
@@ -270,7 +271,8 @@ body {
 	margin: -30px 0 0 -30px;
 	border-radius: 50%;
 	opacity: 0.4;
-	background: var(--color-link);
+/*	background: var(--color-link);*/
+	background:;
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
 
 }
