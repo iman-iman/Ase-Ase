@@ -272,7 +272,7 @@ body {
 	border-radius: 50%;
 	opacity: 0.4;
 /*	background: var(--color-link);*/
-	background:;
+	background:#ffffff;
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
 
 }
